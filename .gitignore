@@ -1,0 +1,16 @@
+Include/
+Lib/
+Scripts/
+share/
+etc/
+.env
+notes.txt
+pyvenv.cfg
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
+.vscode/
+sahil/
+__pycache__/
+ignored/
+.ipynb_checkpoints/
