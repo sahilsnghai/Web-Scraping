@@ -79,7 +79,8 @@ def scrape_asin(asin):
         validated_data = None
     if validated_data is not None:
         product, _  = crud.add_scrape_event(validated_data.dict())
-        print(asin, product)
+        return asin, True
+    return asin, False
 
 
 @celery_app.task
